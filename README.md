@@ -41,6 +41,7 @@ There're 8600 pictures in 5 categories in the dataset.
 ## Modeling
 
 Epochs: 10
+
 13 models were built to compare:
 
 |                Model                 |   Type    | Train Accuracy | Validation Accuracy | Test Accuracy |
