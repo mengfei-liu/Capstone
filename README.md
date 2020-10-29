@@ -72,8 +72,9 @@ Based on the confusion matrix below that the model predicted on the test set, we
 
 ![image](https://github.com/mengfei-liu/Capstone/blob/master/img/2.png)
 
+**Video Analyze**
+
+![origin video](https://github.com/mengfei-liu/Capstone/blob/master/IMG_2.mp4)
+
 Through our process of building models, we also learned that adding layers increases the number of weights in the network and the model complexity. Without a large training set, an increasingly large network is likely to overfit and in turn reduce accuracy on the test data. There are other ways of increasing the accuracy of a network of existing depth, like dropout, changing model hyperparameters, image augmentation, or even reducing the model complexity. Hence, increasing layers is not the first option for increasing accuracy. Overall, a well trained convolutional neural network model is able to detect distracted driving behaviors with a limited resolution camera and provide feedback in real time in a proactive manner.
-In terms of business implementation, it is not difficult to put the model inside an embedded system algorithm, other hardware need for our system are a relatively cheap camera and a buzzer.
-For the future version, more parameters tuning needs to be done. We also need more dataset to train
-our model, make the model more generalization, in order to deal with different angles of the picture,
-different colors, etc.
+In terms of business implementation, it is not difficult to put the model inside an embedded system algorithm, other hardware need for our system are a relatively cheap camera and a buzzer. For the future version, more parameters tuning needs to be done. We also need more dataset to train our model, make the model more generalization, in order to deal with different angles of the picture, different colors, etc.
